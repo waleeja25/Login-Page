@@ -1,0 +1,68 @@
+
+body {
+   background-image: url(background.jpg);
+   background-size: cover;
+   height: 95vh;
+   background-position: center;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.login-container{
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(141, 127, 112, 0.532);  
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(97, 121, 160, 0.139); 
+}
+h3{
+    text-align: center;
+    color: white;
+    font-style: initial;
+    font-weight: bold;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    padding: 1px;
+    background: white;
+    width: 250px;
+    margin: 10px 0px;
+    height: 30px;
+    border-radius: 5px;
+}
+input {
+    border: none;
+    outline: none;
+}
+.material-symbols-outlined {
+     font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24         
+}
+#btn-container {
+    display: block;
+    text-align: center;
+    padding: 7px 10px;
+    width: 250px;
+    height: 30px;
+    margin: 10px auto;
+   background-color: rgb(155, 131, 135);
+   border: none;
+   border-radius: 5px;
+}
+#btn-container:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transform: 0.5s ease;
+    
+}
+#checkbox {
+    font-style: italic;
+    font-size: smaller;
+}
